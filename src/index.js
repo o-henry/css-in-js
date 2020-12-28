@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => <h1>Hello World</h1>;
+import PrimaryButton from "./components/Button";
+
+const App = () => <PrimaryButton>Hello World</PrimaryButton>;
 
 ReactDOM.render(<App />, document.querySelector("#root"));
+
+// cmd + d select all tag
