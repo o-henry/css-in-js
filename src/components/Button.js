@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+const primaryBlue = "#030086";
+
 // Default (shared) Button
 // We'll inherit other button by this
 const Button = styled.button`
@@ -12,7 +14,7 @@ const Button = styled.button`
 `;
 
 const PrimaryButton = styled(Button)`
-  background-color: red;
+  background-color: ${primaryBlue};
   border: none;
   color: white;
   padding: 12px 24px;
