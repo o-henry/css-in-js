@@ -6,3 +6,11 @@
 
 - global style
 - reset or normalize UI
+
+### storybook
+
+- set package.json "storybook": "NODE_ENV=development start-storybook -p 6006 -s public",
+
+##### error
+
+`yarn --production=true`

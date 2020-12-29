@@ -16,16 +16,16 @@ const App = () => {
     <ThemeProvider theme={useDarkTheme ? darkTheme : defaultTheme}>
       <button
         style={{ margin: "0 16px 24px", padding: "8px", background: "none" }}
-        onClick={() => setUseDarkTheme(!useDarkTheme)}
+        onClick={() => setUseDarkTheme(true)}
       >
-        Toggle Dark theme
+        Dark theme
       </button>
-      {/* <button
+      <button
         style={{ margin: "0 16px 24px", padding: "8px", background: "none" }}
         onClick={() => setUseDarkTheme(false)}
       >
         Default theme
-      </button> */}
+      </button>
       <div
         style={{
           background: useDarkTheme
